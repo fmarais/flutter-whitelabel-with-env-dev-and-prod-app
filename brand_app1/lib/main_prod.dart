@@ -6,7 +6,7 @@ import 'app/main_app.dart';
 void main() {
   const configuredApp = AppConfig(
     environment: Environment.prod,
-    appTitle: 'Wallet Mobile',
+    appTitle: 'Base App',
     child: MyApp(),
   );
 
