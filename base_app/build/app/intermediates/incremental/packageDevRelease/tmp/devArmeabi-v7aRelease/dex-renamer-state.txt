@@ -1,4 +1,0 @@
-#Wed Dec 14 14:01:12 SAST 2022
-base.0=/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/dex/devRelease/minifyDevReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

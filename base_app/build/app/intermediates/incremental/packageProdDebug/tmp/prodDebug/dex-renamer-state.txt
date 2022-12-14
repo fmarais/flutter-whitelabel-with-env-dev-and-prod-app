@@ -1,4 +1,0 @@
-#Wed Dec 14 13:54:05 SAST 2022
-base.0=/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/dex/prodDebug/mergeDexProdDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
