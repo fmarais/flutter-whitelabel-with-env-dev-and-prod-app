@@ -286,7 +286,7 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				APP_NAME = "";
-				"APP_NAME[arch=*]" = "Base App";
+				"APP_NAME[arch=*]" = "Brand App 1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -297,8 +297,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.base_app;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.base_app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.brand_app1;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.brand_app1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -366,7 +366,7 @@
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
 				APP_NAME = "";
-				"APP_NAME[arch=*]" = "Base App - DEV";
+				"APP_NAME[arch=*]" = "Brand App 1 - DEV";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=*]" = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -378,8 +378,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.base_app.dev;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.base_app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.brand_app1.dev;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.brand_app1.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -445,7 +445,7 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				APP_NAME = "";
-				"APP_NAME[arch=*]" = "Base App - DEV";
+				"APP_NAME[arch=*]" = "Brand App 1 - DEV";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -456,8 +456,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.base_app.dev;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.base_app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.brand_app1.dev;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.brand_app1.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -520,7 +520,7 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				APP_NAME = "";
-				"APP_NAME[arch=*]" = "Base App - DEV";
+				"APP_NAME[arch=*]" = "Brand App 1 - DEV";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -531,8 +531,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.base_app.dev;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.base_app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.brand_app1.dev;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.brand_app1.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -652,7 +652,7 @@
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
 				APP_NAME = "";
-				"APP_NAME[arch=*]" = "Base App";
+				"APP_NAME[arch=*]" = "Brand App 1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=*]" = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -664,8 +664,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.base_app;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.base_app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.brand_app1;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.brand_app1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -679,7 +679,7 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				APP_NAME = "";
-				"APP_NAME[arch=*]" = "Base App";
+				"APP_NAME[arch=*]" = "Brand App 1";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -690,8 +690,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.base_app;
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.base_app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.mobile.brand_app1;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=*]" = com.wallet.mobile.brand_app1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

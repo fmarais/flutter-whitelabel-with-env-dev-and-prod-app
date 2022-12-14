@@ -1,14 +1,3 @@
-import 'package:flutter/material.dart';
+import 'package:base_project/main_prod.dart' as entry;
 
-import 'config/app_config.dart';
-import 'app/main_app.dart';
-
-void main() {
-  const configuredApp = AppConfig(
-    environment: Environment.prod,
-    appTitle: 'Base App',
-    child: MyApp(),
-  );
-
-  runApp(configuredApp);
-}
+void main() => entry.main();
