@@ -80,7 +80,7 @@ android {
         dev {
             dimension "env"
             applicationIdSuffix ".dev"
-            resValue "string", "app_name", "[DEV] $flutterAppName"
+            resValue "string", "app_name", "$flutterAppName - DEV"
         }
         prod {
             dimension "env"
