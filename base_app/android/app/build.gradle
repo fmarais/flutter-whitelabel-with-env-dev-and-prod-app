@@ -21,6 +21,11 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
+def flutterAppName = localProperties.getProperty('flutter.appName')
+if (flutterAppName == null) {
+    flutterAppName = 'Wallet Mobile Name'
+}
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
@@ -53,11 +58,33 @@ android {
         versionName flutterVersionName
     }
 
+    // ---------------- signing configs
     buildTypes {
+        // https://stackoverflow.com/questions/63134797/flutter-android-flavors-generate-apk
+        // prod apk: flutter build apk --flavor prod -t lib/main_prod.dart
+        // prod app bundle: flutter build appbundle --flavor prod -t lib/main_prod.dart
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
+        }
+
+        // debug {
+        //  Key is auto generated. Uses signingConfigs.debug
+        // }
+    }
+
+    // ---------------- app flavour/scheme
+    flavorDimensions "env"
+    productFlavors {
+        dev {
+            dimension "env"
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "[DEV] $flutterAppName"
+        }
+        prod {
+            dimension "env"
+            resValue "string", "app_name", "$flutterAppName"
         }
     }
 }

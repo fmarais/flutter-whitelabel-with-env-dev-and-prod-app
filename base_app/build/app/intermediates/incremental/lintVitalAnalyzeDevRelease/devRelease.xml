@@ -1,0 +1,53 @@
+<variant
+    name="devRelease"
+    package="com.wallet.mobile.wallet_mobile"
+    minSdkVersion="16"
+    targetSdkVersion="31"
+    shrinking="true"
+    mergedManifest="/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/merged_manifest/devRelease/AndroidManifest.xml"
+    proguardFiles="/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/Users/francois.marais/Documents/flutter-sdk-3.3.8-stable/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/lint_vital_partial_results/devRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/dev/AndroidManifest.xml"
+        javaDirectories="src/dev/java:src/dev/kotlin"
+        resDirectories="src/dev/res"
+        assetsDirectories="src/dev/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+    <sourceProvider
+        manifest="src/devRelease/AndroidManifest.xml"
+        javaDirectories="src/devRelease/java:src/devRelease/kotlin"
+        resDirectories="src/devRelease/res"
+        assetsDirectories="src/devRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <resValues>
+    <resValue
+        type="string"
+        name="app_name"
+        value="[DEV] &quot;Wallet Mobile Name&quot;" />
+  </resValues>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/javac/devRelease/classes:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/tmp/kotlin-classes/devRelease:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/kotlinToolingMetadata:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/devRelease/R.jar"
+      applicationId="com.wallet.mobile.wallet_mobile.dev"
+      generatedSourceFolders="/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/generated/ap_generated_sources/devRelease/out:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/generated/aidl_source_output_dir/devRelease/out:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/generated/source/buildConfig/dev/release:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/generated/renderscript_source_output_dir/devRelease/out"
+      generatedResourceFolders="/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/generated/res/rs/dev/release:/Users/francois.marais/projects/flutter/wallet_mobile/base_app/build/app/generated/res/resValues/dev/release">
+  </mainArtifact>
+</variant>
