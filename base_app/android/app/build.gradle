@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 
 def flutterAppName = localProperties.getProperty('flutter.appName')
 if (flutterAppName == null) {
-    flutterAppName = 'Wallet Mobile Name'
+    flutterAppName = 'Base App'
 }
 
 apply plugin: 'com.android.application'

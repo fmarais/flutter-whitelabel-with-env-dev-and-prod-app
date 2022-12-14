@@ -1,6 +1,6 @@
 {
-    "name": "wallet_mobile",
-    "short_name": "wallet_mobile",
+    "name": "base_app",
+    "short_name": "base_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_mobile/screens/home.dart';
+import 'package:base_app/screens/home.dart';
 
 import '../config/app_config.dart';
 
