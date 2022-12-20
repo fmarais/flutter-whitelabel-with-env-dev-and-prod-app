@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.wallet.mobile" "\0"
-            VALUE "FileDescription", "base_app" "\0"
+            VALUE "FileDescription", "brand_app1" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "base_app" "\0"
+            VALUE "InternalName", "brand_app1" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.wallet.mobile. All rights reserved." "\0"
-            VALUE "OriginalFilename", "base_app.exe" "\0"
-            VALUE "ProductName", "base_app" "\0"
+            VALUE "OriginalFilename", "brand_app1.exe" "\0"
+            VALUE "ProductName", "brand_app1" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
