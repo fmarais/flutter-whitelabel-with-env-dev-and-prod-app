@@ -1,9 +1,7 @@
+import 'package:flutter/material.dart';
+
 import 'package:base_project/main_dev.dart' as entry;
-import 'package:config/config_dev.dart';
 
 void main() {
-  // set env
-  var appHeadingCopy = APP_HEADING_COPY;
-
-  entry.main(appHeadingCopy);
+  entry.mainFlavourApp(themeData: ThemeData(primarySwatch: Colors.purple));
 }

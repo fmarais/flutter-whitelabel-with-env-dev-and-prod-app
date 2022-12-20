@@ -43,13 +43,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.16.0"
-  config:
-    dependency: "direct overridden"
-    description:
-      path: config_override
-      relative: true
-    source: path
-    version: "1.0.0"
   cupertino_icons:
     dependency: "direct main"
     description:
